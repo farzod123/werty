@@ -1,0 +1,69 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 900px;
+    }
+
+
+@media (max-width: 992px) {
+
+    .container {
+        width: 700px;
+    }
+
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+        padding: 25px 0 0;
+    }
+
+    
+
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+
+    .first{
+
+        background: none;
+        background: url(./img/Yanki\ \(51\)\ 1.png) no-repeat center / cover;
+    }
+
+    .hamburger {
+        display: flex;
+        background: none;
+        border: none;
+    }
+    .left {
+        display: none;
+    }
+
+    .grid2 {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .btn {
+        width: 350px;
+    }
+    .btn2 {
+        width: 350px;
+    }
+
+    #id {
+        display: none;
+    }
+    
+
+
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+}
+}
